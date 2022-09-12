@@ -86,7 +86,7 @@ h1#site-title {
     font-family:Segoe Print!important
   }
 
-/* 背景宇宙星光  */
+/*星空背景*/
 #universe{
     display: block;
     position: fixed;
@@ -101,3 +101,14 @@ h1#site-title {
     pointer-events: none;
     z-index: -1;
   }
+  
+  [data-theme="dark"]
+    #web_bg {
+      /* 背景图像的地址（url括号里）  */
+      background: url(https://s2.loli.net/2022/05/23/jBJ4bU87mCx9Pk5.png);
+      /* 背景图像不重复 */
+      background-repeat: no-repeat;
+      /* 背景图像大小 */
+      background-size: cover;
+  }
+  
