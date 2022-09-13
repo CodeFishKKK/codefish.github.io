@@ -105,7 +105,33 @@ h1#site-title {
   [data-theme="dark"]
     #web_bg {
       /* 背景图像的地址（url括号里）  */
-      background: url(https://s2.loli.net/2022/05/23/jBJ4bU87mCx9Pk5.png);
+      background: url(https://laukun-1313741272.cos.ap-guangzhou.myqcloud.com/Blog/bg.jpg);
+      /* 背景图像不重复 */
+      background-repeat: no-repeat;
+      /* 背景图像大小 */
+      background-size: cover;
+  }
+
+/*星空背景*/
+#universe{
+    display: block;
+    position: fixed;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: -1;
+  }
+  
+  [data-theme="light"]
+    #web_bg {
+      /* 背景图像的地址（url括号里）  */
+      background: url(https://laukun-1313741272.cos.ap-guangzhou.myqcloud.com/Blog/bg.jpg);
       /* 背景图像不重复 */
       background-repeat: no-repeat;
       /* 背景图像大小 */
