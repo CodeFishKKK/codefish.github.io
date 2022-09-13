@@ -225,3 +225,20 @@ ul.menus_item_child {
     font-size: 30px;
 }
 
+#post-info {
+    text-shadow: 3px 3px gray;
+}
+/* 头像大框高度 */
+#aside-content > .card-widget:first-child {
+    margin-top: 0;
+    height: 379px;
+}
+
+/* follow me往下调 */
+#aside-content .card-info #card-info-btn{
+    margin-top: 45px;
+}
+
+#aside-content .card-widget{
+    width: 80%;
+}
