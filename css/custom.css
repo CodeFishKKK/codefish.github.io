@@ -225,6 +225,7 @@ ul.menus_item_child {
     width: fit-content;
     left: 50%;
     transform: translateX(-50%);
+    margin-top: -24px;
 }
 #nav .site-page{
     font-size: 25px;
@@ -267,4 +268,24 @@ ul.menus_item_child {
 
 #aside-content .card-widget{
     width: 80%;
+}
+
+.fa-search{
+    margin-top: 73px;
+}
+
+#switch-bg{
+    margin-left: 30px;
+}
+
+#nav-right #search-button{
+    display:inline-block;
+}
+
+#nav-right #switch-bg{
+    display:inline-block;
+}
+
+#nav-right{
+    height: 169px;
 }
