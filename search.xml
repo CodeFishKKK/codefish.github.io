@@ -4,6 +4,44 @@
   
     
     <entry>
+      <title>java工具语法</title>
+      <link href="/2022/10/16/java%E5%B7%A5%E5%85%B7%E8%AF%AD%E6%B3%95/"/>
+      <url>/2022/10/16/java%E5%B7%A5%E5%85%B7%E8%AF%AD%E6%B3%95/</url>
+      
+        <content type="html"><![CDATA[<h1 id="Java工具的语法"><a href="#Java工具的语法" class="headerlink" title="Java工具的语法"></a>Java工具的语法</h1><h2 id="1-输入-x2F-输出"><a href="#1-输入-x2F-输出" class="headerlink" title="1.输入&#x2F;输出"></a>1.输入&#x2F;输出</h2><h3 id="快速输入"><a href="#快速输入" class="headerlink" title="快速输入"></a>快速输入</h3><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">BufferedReader</span> <span class="variable">br</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">BufferedReader</span>(<span class="keyword">new</span> <span class="title class_">InputStreamReader</span>(System.in));</span><br><span class="line"><span class="type">String</span> <span class="variable">str</span> <span class="operator">=</span> br.readLine();</span><br></pre></td></tr></table></figure><h3 id="快速输出"><a href="#快速输出" class="headerlink" title="快速输出"></a>快速输出</h3><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">BufferedWriter</span> <span class="variable">bw</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">BufferedWriter</span>(<span class="keyword">new</span> <span class="title class_">OutputStreamWriter</span>(System.out));</span><br><span class="line">bw.write(str);</span><br><span class="line">bw.flush();</span><br></pre></td></tr></table></figure><h2 id="2-栈的操作"><a href="#2-栈的操作" class="headerlink" title="2.栈的操作"></a>2.栈的操作</h2><table><thead><tr><th>方法</th><th>类型</th><th>方法描述</th></tr></thead><tbody><tr><td>empty()</td><td>boolean</td><td>测试堆栈是否为空</td></tr><tr><td>push(E item)</td><td>E</td><td>把项压入堆栈顶部</td></tr><tr><td>pop()</td><td>E</td><td>移除堆栈顶部的对象，并作为此函数的值返回该对象</td></tr><tr><td>peek()</td><td>E</td><td>查看堆栈顶部的对象，但不从堆栈中移除它</td></tr><tr><td>search(Object o)</td><td>int</td><td>返回对象再堆栈中的位置，以1为基数</td></tr></tbody></table><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//获取stack长度</span></span><br><span class="line">size()</span><br><span class="line"><span class="comment">//下标处添加</span></span><br><span class="line">add(<span class="type">int</span> index, E element)</span><br><span class="line"><span class="comment">//添加集合</span></span><br><span class="line">addAll(Collection&lt;? <span class="keyword">extends</span> <span class="title class_">E</span>&gt; c)</span><br><span class="line"><span class="comment">//移除对象</span></span><br><span class="line">remove(Object obj)</span><br><span class="line"><span class="comment">//根据下标移除对象</span></span><br><span class="line">remove(<span class="type">int</span> index)</span><br><span class="line"><span class="comment">//清空</span></span><br><span class="line">clear()</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> 算法 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 算法 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/2022/10/16/idea%E5%B8%B8%E7%94%A8%E5%BF%AB%E6%8D%B7%E9%94%AE/"/>
+      <url>/2022/10/16/idea%E5%B8%B8%E7%94%A8%E5%BF%AB%E6%8D%B7%E9%94%AE/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>函数的图像（中）</title>
       <link href="/2022/09/12/%E5%87%BD%E6%95%B0%E7%9A%84%E5%9B%BE%E5%83%8F%EF%BC%88%E4%B8%AD%EF%BC%89/"/>
       <url>/2022/09/12/%E5%87%BD%E6%95%B0%E7%9A%84%E5%9B%BE%E5%83%8F%EF%BC%88%E4%B8%AD%EF%BC%89/</url>
@@ -23,19 +61,6 @@
             <tag> 考研 </tag>
             
         </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Hello World</title>
-      <link href="/2022/09/11/hello-world/"/>
-      <url>/2022/09/11/hello-world/</url>
-      
-        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
-      
-      
       
     </entry>
     
