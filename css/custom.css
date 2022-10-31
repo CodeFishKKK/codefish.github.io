@@ -292,39 +292,52 @@ ul.menus_item_child {
 :root {
     --card-bg:rgba(255,255,255, 0.8);
   }
+  [data-theme="dark"] {
+    --card-bg:rgba(38, 36, 36, 0.1);
+  }
 #recent-posts > .recent-post-item {
+    border: 1px solid rgb(206, 196, 196);
     background: var(--card-bg);
   }
+#recent-posts > .recent-post-item > .swiper-container-horizontal{
+    height: 225px;
+}
   
 
   
   /* 首页侧栏卡片 */
   #aside-content .card-widget {
+    border: 1px solid rgb(206, 196, 196);
     background: var(--card-bg);
   }
   
   /* 文章页面正文背景 */
   div#post {
+    border: 1px solid rgb(206, 196, 196);
     background: var(--card-bg);
   }
   
   /* 分页页面 */
   div#page {
+    border: 1px solid rgb(206, 196, 196);
     background: var(--card-bg);
   }
   
   /* 归档页面 */
   div#archive {
+    border: 1px solid rgb(206, 196, 196);
     background: var(--card-bg);
   }
   
   /* 标签页面 */
   div#tag {
+    border: 1px solid rgb(206, 196, 196);
     background: var(--card-bg);
   }
   
   /* 分类页面 */
   div#category {
+    border: 1px solid rgb(206, 196, 196);
     background: var(--card-bg);
   }
   
