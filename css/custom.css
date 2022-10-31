@@ -289,3 +289,42 @@ ul.menus_item_child {
 #nav-right{
     height: 169px;
 }
+:root {
+    --card-bg:rgba(255,255,255, 0.8);
+  }
+#recent-posts > .recent-post-item {
+    background: var(--card-bg);
+  }
+  
+
+  
+  /* 首页侧栏卡片 */
+  #aside-content .card-widget {
+    background: var(--card-bg);
+  }
+  
+  /* 文章页面正文背景 */
+  div#post {
+    background: var(--card-bg);
+  }
+  
+  /* 分页页面 */
+  div#page {
+    background: var(--card-bg);
+  }
+  
+  /* 归档页面 */
+  div#archive {
+    background: var(--card-bg);
+  }
+  
+  /* 标签页面 */
+  div#tag {
+    background: var(--card-bg);
+  }
+  
+  /* 分类页面 */
+  div#category {
+    background: var(--card-bg);
+  }
+  
