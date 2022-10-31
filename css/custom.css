@@ -65,7 +65,7 @@ background: transparent!important;
 }
 
 #recent-posts > .recent-post-item {
-    height: 16em;
+    /* height: 16em; */
     font-size: 15px;
 }
 
@@ -301,6 +301,10 @@ ul.menus_item_child {
   }
 #recent-posts > .recent-post-item > .swiper-container-horizontal{
     height: 225px;
+}
+
+#recent-posts > .recent-post-item > .post_bg{
+    height: ;
 }
   
 
