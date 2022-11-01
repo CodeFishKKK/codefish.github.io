@@ -179,31 +179,6 @@
     
     
     <entry>
-      <title>idea常用快捷键</title>
-      <link href="/2022/10/16/idea%E5%B8%B8%E7%94%A8%E5%BF%AB%E6%8D%B7%E9%94%AE/"/>
-      <url>/2022/10/16/idea%E5%B8%B8%E7%94%A8%E5%BF%AB%E6%8D%B7%E9%94%AE/</url>
-      
-        <content type="html"><![CDATA[<h1>idea常用的快捷键</h1><table><thead><tr><th>快捷键</th><th style="text-align:left">介绍</th></tr></thead><tbody><tr><td>Ctrl + F</td><td style="text-align:left">在当前文件进行文本查找</td></tr><tr><td>Ctrl + R</td><td style="text-align:left">在当前文件进行文本替换</td></tr><tr><td>Ctrl + D</td><td style="text-align:left">复制选择内容，并把复制内容插入光标位置下面</td></tr><tr><td>Ctrl + W</td><td style="text-align:left">递进式选择代码块。可选中光标所在的单词或段落，连续按会在原有选中的基础上再扩展选中范围</td></tr><tr><td>Shift + F10</td><td style="text-align:left">等效于点击工具栏的 <code>Run</code> 按钮</td></tr><tr><td>Ctrl + Alt + L</td><td style="text-align:left">格式化代码，可以对当前文件和整个包目录使用</td></tr><tr><td>Ctrl + Shift + Z</td><td style="text-align:left">取消撤销</td></tr><tr><td>Ctrl + Shift + F</td><td style="text-align:left">根据输入内容查找整个项目 或 指定目录内文件</td></tr><tr><td>Ctrl + Shift + /</td><td style="text-align:left">代码块注释</td></tr></tbody></table>]]></content>
-      
-      
-      <categories>
-          
-          <category> 工程项目 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 工程项目 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>java工具语法</title>
       <link href="/2022/10/16/java%E5%B7%A5%E5%85%B7%E8%AF%AD%E6%B3%95/"/>
       <url>/2022/10/16/java%E5%B7%A5%E5%85%B7%E8%AF%AD%E6%B3%95/</url>
@@ -221,6 +196,31 @@
         <tags>
             
             <tag> 算法 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>idea常用快捷键</title>
+      <link href="/2022/10/16/idea%E5%B8%B8%E7%94%A8%E5%BF%AB%E6%8D%B7%E9%94%AE/"/>
+      <url>/2022/10/16/idea%E5%B8%B8%E7%94%A8%E5%BF%AB%E6%8D%B7%E9%94%AE/</url>
+      
+        <content type="html"><![CDATA[<h1>idea常用的快捷键</h1><table><thead><tr><th>快捷键</th><th style="text-align:left">介绍</th></tr></thead><tbody><tr><td>Ctrl + F</td><td style="text-align:left">在当前文件进行文本查找</td></tr><tr><td>Ctrl + R</td><td style="text-align:left">在当前文件进行文本替换</td></tr><tr><td>Ctrl + D</td><td style="text-align:left">复制选择内容，并把复制内容插入光标位置下面</td></tr><tr><td>Ctrl + W</td><td style="text-align:left">递进式选择代码块。可选中光标所在的单词或段落，连续按会在原有选中的基础上再扩展选中范围</td></tr><tr><td>Shift + F10</td><td style="text-align:left">等效于点击工具栏的 <code>Run</code> 按钮</td></tr><tr><td>Ctrl + Alt + L</td><td style="text-align:left">格式化代码，可以对当前文件和整个包目录使用</td></tr><tr><td>Ctrl + Shift + Z</td><td style="text-align:left">取消撤销</td></tr><tr><td>Ctrl + Shift + F</td><td style="text-align:left">根据输入内容查找整个项目 或 指定目录内文件</td></tr><tr><td>Ctrl + Shift + /</td><td style="text-align:left">代码块注释</td></tr></tbody></table>]]></content>
+      
+      
+      <categories>
+          
+          <category> 工程项目 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 工程项目 </tag>
             
         </tags>
       
